@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="meditation1.css">
+    <title>MEDITATION</title>
+</head>
+<body>
+    <nav class="nav1">
+        <a href="landingpage.html"><img class="back1" src="IMAGES/Vector.jpg" alt=""></a>
+        <img src="IMAGES/QQQ 1.png" class="img-1">
+        <a href="settings.html"><button class="btn-1"> <img class="img-2" src="IMAGES/icons8-user-settings-48.png"> Settings</button></a>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><img src="IMAGES/icons8-expand-arrow-48.png" class="img-3"></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">Home</a>
+              <a href="#">About Us</a>
+              <a href="#">Contact Us</a>
+            </div>
+        </div>
+        <script>
+            /* When the user clicks on the button, then he will showing the dropdown content hiding in it*/
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }  
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+        </script>
+    </nav>
+    <img src="IMAGES/bg.png" class="img-4">
+    <div class="div1">
+        <p class="para1">Yoga exercises for Meditation</p>
+    </div>
+    <h1 class="H1">(1)</h1>
+    <img src="IMAGES/Man doing yoga exercises in the studio.png" class="img-5">
+    <div class="DIV1">
+        <img src="IMAGES/Vector.png" class="img-6">
+        <a href="#">
+            <button class="btn-2">
+                Show Previous Exercise
+            </button>
+        </a>
+        <a href="meditation2.html">
+            <button class="btn-2">
+                Show Next Exercise
+            </button>
+        </a>
+        <img src="IMAGES/Vector1.png" class="img-7">
+    </div>
+</body>
+</html>

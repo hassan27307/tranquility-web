@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.bacground{
+    background-color: #B0E1F7;
+    position: absolute;
+    top: 200px;
+    width: 1300px;
+}
+
+.img-1{
+    position: relative;
+    top: 20px;
+    height: 250px;
+    width: 450px;
+    left: 60px;
+}
+
+.img-4{
+    position: absolute;
+    height: 500px;
+    bottom: 1px;
+    width: 1535px;
+}
+
+.Div1{
+    position: relative;
+    top: 50px;
+    right: 180px;
+    display: flex;
+    flex-direction: row;
+    gap:70px;
+}
+
+.btn-1{
+    position: relative;
+    background: #FFF385;
+    font-size: 30px;
+    width: 260px;
+    height: 100px;
+    border-radius: 25px;
+    left: 640px;
+    top: 42px;
+    font-weight: bold;
+    color: rgb(27, 24, 24);
+    padding: 0px 30px 70px 10px;
+}
+
+.img-2{
+    position: relative;
+    width: 60px;
+    left: 25px;
+    top: 20px;
+}
+
+.btn-2{
+    position: relative;
+    background: #FFF385;
+    font-size: 30px;
+    width: 260px;
+    height: 100px;
+    border-radius: 25px;
+    left: 640px;
+    top: 42px;
+    font-weight: bold;
+    color: rgb(27, 24, 24);
+    padding: 0px 30px 70px 10px;
+}
+
+.img-3{
+    position: relative;
+    width: 60px;
+    left: 25px;
+    top: 20px;
+}
+
+
+button:hover{
+    cursor: pointer;
+}
+
+a:hover{
+    cursor: pointer;
+}

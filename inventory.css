@@ -1,0 +1,178 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.back1{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    height: 40px;
+}
+
+.back1 a:hover{
+    cursor: pointer;
+}
+
+.img-1{
+    position: relative;
+    top: 20px;
+    height: 200px;
+    width: 350px;
+    left: 60px;
+}
+
+.img-2{
+    position: absolute;
+    top: 13px;
+    width: 30px;
+    left: 135px;
+}
+
+.img-4{
+    position: absolute;
+    height: 550px;
+    bottom: 1px;
+    width: 1535px;
+}
+
+.btn-1{
+    position: absolute;
+    width: 185px;
+    height: 62px;
+    left: 1150px;
+    top: 52px;
+    background: #FFF385;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 12px 18px 12px;
+    text-align: justify;
+}
+
+.dropbtn {
+    background-color: white;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+  
+.dropbtn:hover, .dropbtn:focus {
+    background-color: white;
+    border: none;
+}
+  
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    left: 1380px;
+    top: 42px;
+    padding: 0px;
+    border: none;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+
+.dropdown-content a:hover {
+    background-color: rgb(73, 155, 232);
+}
+  
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display:block;
+}
+
+.img-3{
+    position: relative;
+    width: 70px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.btn-2{
+    position: relative;
+    width: 235px;
+    height: 82px;
+    background: #FFF385;
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 12px 18px 12px 18px;
+    text-align: justify;
+}
+
+.img-5{
+    position: absolute;
+    bottom: 20px;
+    left:165px;
+    height: 50px;
+}
+
+.btn-3{
+    position: relative;
+    width: 235px;
+    height: 82px;
+    background: #FFF385;
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 12px 58px 12px 48px;
+    text-align: justify;
+}
+
+.img-6{
+    position: absolute;
+    bottom: 10px;
+    left:135px;
+    height: 60px;
+}
+
+.Div1{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    left: 350px;
+    top: 280px;
+}
+
+.Div2{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    left: 490px;
+    top: 450px;
+}
+
+.btn-4{
+    position: relative;
+    width: 235px;
+    height: 82px;
+    background: #FFF385;
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 12px 58px 12px 30px;
+    text-align: justify;
+}
+
+.img-7{
+    position: absolute;
+    bottom: 10px;
+    left:145px;
+    height: 60px;
+}

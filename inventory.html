@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/6c2a7207a6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="inventory.css">
+    <title>INVENTORY</title>
+</head>
+<body>
+    <nav class="nav1">
+        <a href="landingpage.html"><img class="back1" src="IMAGES/Vector.jpg" alt=""></a>
+        <img src="IMAGES/QQQ 1.png" class="img-1">
+        <a href="settings.html"><button class="btn-1"> <img class="img-2" src="IMAGES/icons8-user-settings-48.png"> Settings</button></a>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><img src="IMAGES/icons8-expand-arrow-48.png" class="img-3"></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">Home</a>
+              <a href="#">About Us</a>
+              <a href="#">Contact Us</a>
+            </div>
+        </div>
+        <script>
+            /* When the user clicks on the button, then he will showing the dropdown content hiding in it*/
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }  
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+        </script>
+    </nav>
+    <img src="IMAGES/bg.png" class="img-4">
+    <div class="Div1">
+        <a href="meditation1.html"><button class="btn-2">Meditation <img  class="img-5" src="IMAGES/icons8-guru-50.png"></button></a>
+        <a href="relaxation.html"><button class="btn-2">Relaxation<img  class="img-5" src="IMAGES/icons8-massage-50.png"></button></a>
+        <a href="sleep.html"><button class="btn-3">Sleep <img  class="img-6" src="IMAGES/icons8-pillow-32.png"></button></a>
+    </div>
+    <div class="Div2">
+        <a href="breathing.html"><button class="btn-2">Breathing <img  class="img-5" src="IMAGES/icons8-firebreather-48.png"></button></a>
+        <a href="journal.html"><button class="btn-4">Journal<img  class="img-7" src="IMAGES/icons8-journal-48.png"></button></a>
+    </div>
+</body>
+</html>
